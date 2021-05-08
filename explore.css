@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    height: 100%;
+    font-family: Century Gothic;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://s1.1zoom.me/b6236/399/Cranes_Origami_Paper_537005_1920x1080.jpg);
+    width: 100%
+}
+
+.img-container{
+    
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.inner-container{
+    text-align: center;
+    position:absolute;
+    width: 100%;
+    color: #ffffff;
+    height:auto;
+    margin-top: 20px;
+}
+
+h1{
+    font-size: 6em;
+    font-family: "Shadows into Light",sans-serif;
+}
+
+h2 a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 2px solid transparent;
+    cursor: none;
+    font-size: 2.7em;
+    font-family: Century Gothic;
+}
+
+.grid{
+  
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  text-align: left;
+  flex-wrap: wrap;
+}
+
+.btn-1{
+    width:110px;
+    height: 40px;
+    border: none;
+    color: #000;
+    background-color: #fff;
+    border-radius: 1px ;
+    transition: ease-out 0.3s;
+    font-size: 1em;
+    outline:none;
+    cursor: pointer;
+}
+
+.camel {
+    border: 1px solid #fff;
+    opacity: 1;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 400px;
+    height: 400px;
+    padding: 50px;
+    background-color:transparent;
+    transition: transform 0.5s;
+  }
+
+.camel:hover{
+    opacity: 0.4;
+    transition: 0.3s ease;
+    transform: translateY(-15px);
+}
+
+.btn-1:hover{
+    background-color: #EDC856;
+    color: #fff;
+}
+
+.panda {
+  border: 1px solid #fff;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 400px;
+  height: 400px;
+  padding: 50px;
+  background-color:transparent;
+  transition: transform 0.5s;
+}
+
+.panda:hover{
+    opacity: 0.4;
+    transition: 0.3s ease;
+    transform: translateY(-15px);
+}
+
+.chameleon {
+    border: 1px solid #fff;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 400px;
+    height: 400px;
+    padding: 50px;
+    background-color:transparent;
+    transition: transform 0.5s;
+  }
+
+.chameleon:hover{
+    opacity: 0.4;
+    transition: 0.3s ease;
+    transform: translateY(-15px);
+}
+
+.cicada {
+  border: 1px solid #fff;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 400px;
+  height: 400px;
+  padding: 50px;
+  background-color:transparent;
+  transition: transform 0.5s;
+}
+
+.cicada:hover{
+    opacity: 0.4;
+    transition: 0.3s ease;
+    transform: translateY(-15px);
+}
+
+.teddy {
+    border: 1px solid #fff;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 400px;
+    height: 400px;
+    padding: 50px;
+    background-color:transparent;
+    transition: transform 0.5s;
+  }
+
+.teddy:hover{
+    opacity: 0.4;
+    transition: 0.3s ease;
+    transform: translateY(-15px);
+}
+
+.pigeon {
+  border: 1px solid #fff;
+  margin-top: 5px;
+  margin-bottom: 10;
+  width: 400px;
+  height: 400px;
+  padding: 50px;
+  background-color:transparent;
+  transition: transform 0.5s;
+}
+
+.pigeon:hover{
+    opacity: 0.4;
+    transition: 0.3s ease;
+    transform: translateY(-15px);
+}
+
+p{
+    font-size: 2em;
+    font-family: "Shadows into Light",sans-serif;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 2px solid transparent;
+    transition: 0.7s ease;
+}
+
+ul li a:hover{
+    background: #fff;
+    color: #000;
+}
